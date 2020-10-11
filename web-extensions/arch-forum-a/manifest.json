@@ -3,7 +3,7 @@
   "name": "ArchLinux Forum (by author) Search",
   "short_name": "archlinux_search_forum_a",
   "description": "Adds ArchLinux Forum (by author) as a search engine.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "16": "icons/arch.svg",
     "64": "icons/arch.svg",
@@ -22,5 +22,7 @@
         "id": "ArchForumA@archlinux.org",
         "strict_min_version": "55.0"
     }
-  }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
 }
