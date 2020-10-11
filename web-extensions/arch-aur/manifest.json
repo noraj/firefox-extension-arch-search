@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "ArchLinux AUR Search",
+  "short_name": "archlinux_search_aur",
+  "description": "Adds ArchLinux AUR as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch.svg",
+    "64": "icons/arch.svg",
+    "256": "icons/arch.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux User Repository (AUR)",
+      "keyword": "alaur",
+      "favicon_url": "https://aur.archlinux.org/images/favicon.ico",
+      "search_url": "https://aur.archlinux.org/packages.php?K={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchAur@archlinux.org",
+        "strict_min_version": "55.0"
+    }
+  }
+}

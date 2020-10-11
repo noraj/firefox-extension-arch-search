@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "ArchLinux Bugtracker (by text) Search",
+  "short_name": "archlinux_search_bugs_t",
+  "description": "Adds ArchLinux Bugtracker (by text) as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch.svg",
+    "64": "icons/arch.svg",
+    "256": "icons/arch.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Bugtracker (text)",
+      "keyword": "albugst",
+      "favicon_url": "https://bugs.archlinux.org/themes/ArchLinux/favicon.ico",
+      "search_url": "https://bugs.archlinux.org/index.php?string={searchTerms}&project=0"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchBugsT@archlinux.org",
+        "strict_min_version": "55.0"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "ArchLinux Forum (by author) Search",
+  "short_name": "archlinux_search_forum_a",
+  "description": "Adds ArchLinux Forum (by author) as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch.svg",
+    "64": "icons/arch.svg",
+    "256": "icons/arch.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Forum (author)",
+      "keyword": "alforuma",
+      "favicon_url": "https://bbs.archlinux.org/style/ArchLinux/favicon.ico",
+      "search_url": "https://bbs.archlinux.org/search.php?author={searchTerms}&search_in=0&sort_by=0&sort_dir=DESC&show_as=posts&action=search"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchForumA@archlinux.org",
+        "strict_min_version": "55.0"
+    }
+  }
+}

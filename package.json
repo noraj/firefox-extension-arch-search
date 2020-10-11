@@ -1,0 +1,32 @@
+{
+  "name": "firefox-extension-arch-search",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.",
+  "author": "noraj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noraj/firefox-extension-arch-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noraj/firefox-extension-arch-search/issues"
+  },
+  "homepage": "https://github.com/noraj/firefox-extension-arch-search",
+  "keywords": [
+    "webextensions",
+    "firefox",
+    "archlinux"
+  ],
+  "scripts": {
+    "lint": "web-ext lint",
+    "build": "web-ext build --overwrite-dest -a ./dist",
+    "buildAll": "./build.sh",
+    "run": "web-ext run"
+  },
+  "devDependencies": {
+    "web-ext": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}

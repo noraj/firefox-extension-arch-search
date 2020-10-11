@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "ArchLinux Packages Search",
+  "short_name": "archlinux_search_pkgs",
+  "description": "Adds ArchLinux Packages as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch.svg",
+    "64": "icons/arch.svg",
+    "256": "icons/arch.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Packages",
+      "keyword": "alpkgs",
+      "favicon_url": "https://www.archlinux.org/static/favicon.29302f683ff8.ico",
+      "search_url": "https://www.archlinux.org/packages/?q={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchPkgs@archlinux.org",
+        "strict_min_version": "55.0"
+    }
+  }
+}
