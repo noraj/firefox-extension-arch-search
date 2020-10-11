@@ -1,0 +1,30 @@
+# Maintainer: noraj <printf %s 'YWxleGFuZHJlLnphbm5pQGV1cm9wZS5jb20='|base64 -d>
+
+pkgname=firefox-extension-arch-search
+pkgver=1.0.1
+pkgrel=1
+pkgdesc="A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser."
+arch=('any')
+url="https://github.com/noraj/firefox-extension-arch-search"
+license=('MIT')
+groups=('firefox-addons')
+depends=("firefox")
+replaces=('arch-firefox3-search' 'arch-firefox-search')
+source=("https://addons.mozilla.org/firefox/downloads/file/xxx/xxx-${pkgver}.xpi"
+        "https://addons.cdn.mozilla.net/user-media/addons/xxx/xxx-$pkgver-an+fx.xpi"
+        "https://raw.githubusercontent.com/noraj/$pkgname/master/LICENSE")
+noextract=("adblock-plus-$pkgver.xpi")
+b2sums=('xxx')
+
+package() {
+
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchAur@archlinux.org.xpi"
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchBugsFs@archlinux.org.xpi"
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchBugsT@archlinux.org.xpi"
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchForumA@archlinux.org.xpi"
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchForumK@archlinux.org.xpi"
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchPkgs@archlinux.org.xpi"
+  install -Dm644 "${pkgname}-${pkgver}.xpi" "${pkgdir}/usr/lib/firefox/browser/extensions/ArchWiki@archlinux.org.xpi"
+
+  install -Dm644 -t "${pkgdir}/usr/share/licenses/${pkgname}/" LICENSE
+}
