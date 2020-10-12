@@ -21,6 +21,11 @@ ArchLinux Bugtracker (by text) Search  | `albugst`  | [AMO][arch-bugs-t]
 ArchLinux Forum (by author) Search     | `alforuma` | [AMO][arch-forum-a]
 ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
 
+## Install
+
+- On ArchLinux: `pikaur -S firefox-extension-arch-search`
+- On any other OS: install the extensions manually via AMO (Addons MOzilla) following the links above
+
 ## Develop Locally
 
 * Clone the repo
