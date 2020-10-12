@@ -1,5 +1,10 @@
 # ArchLinux Search
 
+![AUR version](https://img.shields.io/aur/version/firefox-extension-arch-search)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/noraj/firefox-extension-arch-search)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/noraj/firefox-extension-arch-search)
+![GitHub](https://img.shields.io/github/license/noraj/firefox-extension-arch-search)
+
 A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as
 a search engine to the Firefox browser (using the [chrome_settings_overrides](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides) manifest key).
 Submits the query via GET request for compatibility with [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
