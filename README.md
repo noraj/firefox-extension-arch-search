@@ -46,6 +46,11 @@ ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
 ## FAQ
 
 - [Why is there one extension per search engine?](https://stackoverflow.com/questions/64304959/is-it-possible-to-add-multiple-search-engines-in-the-same-firefox-web-extension)
+- After the installation, I still  don't see the new search enines. Where are there?
+  - Disable/Enable the extensions, this will reload them and they'll appear.
+- It's possible to add the search engines by clicking the plus button on the search bar, so why an extension?
+  - It's  way quicker to install the extension rather than manually adding the search engines. An extension also allows automation.
+  - The bug tracker & the forum use advanced search with several parameters so it's not possible to add them manually via the search bar, an extension is mandatory.
 
 [amo]:(https://addons.mozilla.org/)
 [arch-aur]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-aur-search/
