@@ -106,3 +106,5 @@ dist
 # makepkg
 packages/archlinux/src/
 packages/archlinux/pkg/
+*.xpi
+packages/archlinux/LICENSE

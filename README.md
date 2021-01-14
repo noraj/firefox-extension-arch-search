@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/16578570/95793622-4edc3d80-0ce6-11eb-8122-a48bca577fb1.png)
 
-A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as
+A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR, man pages) as
 a search engine to the Firefox browser (using the [chrome_settings_overrides](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides) manifest key).
 Submits the query via GET request for compatibility with [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
 
@@ -22,6 +22,7 @@ ArchLinux Bugtracker (by FS) Search    | `albugsfs` | [AMO][arch-bugs-fs]
 ArchLinux Bugtracker (by text) Search  | `albugst`  | [AMO][arch-bugs-t]
 ArchLinux Forum (by author) Search     | `alforuma` | [AMO][arch-forum-a]
 ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
+ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
 
 ## Install
 
@@ -60,3 +61,4 @@ ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
 [arch-forum-k]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-keywords-search/
 [arch-pkgs]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-packages-search/
 [arch-wiki]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-wiki-search/
+[arch-man]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-manual-pages-search/

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "ArchLinux manual pages Search",
+  "short_name": "archlinux_search_man",
+  "description": "Adds ArchLinux manual pages as a search engine.",
+  "version": "1.0.2",
+  "icons": {
+    "16": "icons/arch.svg",
+    "64": "icons/arch.svg",
+    "256": "icons/arch.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux manual pages",
+      "keyword": "alman",
+      "favicon_url": "https://man.archlinux.org/static/archlinux-common/favicon.ico",
+      "search_url": "https://man.archlinux.org/search?q={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchMan@archlinux.org",
+        "strict_min_version": "55.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
+}
