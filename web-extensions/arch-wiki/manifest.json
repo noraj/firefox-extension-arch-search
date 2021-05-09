@@ -14,7 +14,7 @@
       "name": "ArchLinux Wiki",
       "keyword": "alwiki",
       "favicon_url": "https://wiki.archlinux.org/favicon.ico",
-      "search_url": "https://wiki.archlinux.org/index.php/?search={searchTerms}"
+      "search_url": "https://wiki.archlinux.org/index.php?search={searchTerms}"
     }
   },
   "browser_specific_settings": {
