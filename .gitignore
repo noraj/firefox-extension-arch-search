@@ -107,4 +107,5 @@ dist
 packages/archlinux/src/
 packages/archlinux/pkg/
 *.xpi
+*.tar.zst
 packages/archlinux/LICENSE

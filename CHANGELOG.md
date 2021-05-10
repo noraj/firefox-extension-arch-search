@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.0.3]
+
+- Fixed Arch Wiki search URL [#11](https://github.com/noraj/firefox-extension-arch-search/pull/11) (thanks @rharish101)
+
 ## [1.0.2]
 
 - Add search for new manual pages service (#6)
