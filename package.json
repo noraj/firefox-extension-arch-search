@@ -1,6 +1,6 @@
 {
   "name": "firefox-extension-arch-search",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "license": "MIT",
   "description": "A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.",
   "author": "noraj",
