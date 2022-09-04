@@ -13,7 +13,7 @@
     "search_provider": {
       "name": "ArchLinux User Repository (AUR)",
       "keyword": "alaur",
-      "favicon_url": "https://aur.archlinux.org/images/favicon.ico",
+      "favicon_url": "https://aur.archlinux.org/static/images/favicon.ico",
       "search_url": "https://aur.archlinux.org/packages?K={searchTerms}"
     }
   },
