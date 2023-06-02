@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ArchLinux Forum (by keywords) Search",
+  "short_name": "archlinux_search_forum_k",
+  "description": "Adds ArchLinux Forum (by keywords) as a search engine.",
+  "version": "1.0.2",
+  "icons": {
+    "16": "icons/arch-fk.svg",
+    "64": "icons/arch-fk.svg",
+    "256": "icons/arch-fk.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Forum (keywords)",
+      "keyword": "alforumk",
+      "favicon_url": "icons/arch-fk.svg",
+      "search_url": "https://bbs.archlinux.org/search.php?keywords={searchTerms}&search_in=0&sort_by=0&sort_dir=DESC&show_as=topics&action=search"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchForumK@archlinux.org",
+        "strict_min_version": "109.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
+}

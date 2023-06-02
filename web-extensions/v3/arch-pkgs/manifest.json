@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ArchLinux Packages Search",
+  "short_name": "archlinux_search_pkgs",
+  "description": "Adds ArchLinux Packages as a search engine.",
+  "version": "1.0.2",
+  "icons": {
+    "16": "icons/arch-p.svg",
+    "64": "icons/arch-p.svg",
+    "256": "icons/arch-p.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Packages",
+      "keyword": "alpkgs",
+      "favicon_url": "icons/arch-p.svg",
+      "search_url": "https://www.archlinux.org/packages/?q={searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchPkgs@archlinux.org",
+        "strict_min_version": "109.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
+}

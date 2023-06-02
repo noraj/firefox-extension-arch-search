@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ArchLinux Bugtracker (by text) Search",
+  "short_name": "archlinux_search_bugs_t",
+  "description": "Adds ArchLinux Bugtracker (by text) as a search engine.",
+  "version": "1.0.2",
+  "icons": {
+    "16": "icons/arch-bt.svg",
+    "64": "icons/arch-bt.svg",
+    "256": "icons/arch-bt.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Bugtracker (text)",
+      "keyword": "albugst",
+      "favicon_url": "icons/arch-bt.svg",
+      "search_url": "https://bugs.archlinux.org/index.php?string={searchTerms}&project=0"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchBugsT@archlinux.org",
+        "strict_min_version": "109.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
+}
