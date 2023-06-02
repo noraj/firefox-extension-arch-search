@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.0.5]
+
+- Migration to Manifest V3 [#19](https://github.com/noraj/firefox-extension-arch-search/issues/19)
+- Icons with different colors [#17](https://github.com/noraj/firefox-extension-arch-search/issues/17)
+
 ## [1.0.4]
 
 - Fixed AUR search URL [#15](https://github.com/noraj/firefox-extension-arch-search/pull/15) (thanks @rharish101)
