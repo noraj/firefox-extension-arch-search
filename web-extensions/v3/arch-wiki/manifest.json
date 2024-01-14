@@ -21,7 +21,10 @@
     "gecko": {
         "id": "ArchWiki@archlinux.org",
         "strict_min_version": "109.0"
-    }
+    },
+    "gecko_android": {
+      "strict_min_version": "121.0"
+  }
   },
   "author": "noraj",
   "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
