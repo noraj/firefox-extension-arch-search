@@ -37,11 +37,11 @@ ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
 * Install dependencies:
   * `npm i`
 * Lint (check for manifest syntax errors)
-  * `npm run lint -- -s web-extensions/<ext-name>`
+  * `npm run lint -- -s web-extensions/v3/<ext-name>`
 * Run add-on in isolated Firefox instance using [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) (open the [Browser Toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) for console logging):
-  * `npm run run -- -s web-extensions/<ext-name>`
+  * `npm run run -- -s web-extensions/v3/<ext-name>`
 * Package for distribution:
-  * One extension: `npm run build -- -s web-extensions/<ext-name>`
+  * One extension: `npm run build -- -s web-extensions/v3/<ext-name>`
   * All extensions: `npm run buildAll`
 
 ## FAQ
