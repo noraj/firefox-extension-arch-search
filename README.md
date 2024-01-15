@@ -27,7 +27,7 @@ ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
 ## Install
 
 - On ArchLinux: `pikaur -S firefox-extension-arch-search`
-- On any other OS: install the extensions manually via AMO (Addons MOzilla) following the links above
+- On any other OS: install the extensions manually via AMO (**A**ddons **MO**zilla) following the links above
 
 ## Develop Locally
 
