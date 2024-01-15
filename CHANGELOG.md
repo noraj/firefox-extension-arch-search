@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.6 - Unreleased]
+
+- Firefox for Android support [#35](https://github.com/noraj/firefox-extension-arch-search/pull/35) (thanks @sangsatori)
 
 ## [1.0.5]
 
@@ -17,11 +19,11 @@
 
 ## [1.0.2]
 
-- Add search for new manual pages service (#6)
+- Add search for new manual pages service ([#6](https://github.com/noraj/firefox-extension-arch-search/issues/6))
 
 ## [1.0.1]
 
-- Add author & homepage_url to extensions' manifest
+- Add `author` & `homepage_url` to extensions' manifest
 
 ## [1.0.0]
 
