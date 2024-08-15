@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ArchLinux Security Search",
+  "short_name": "archlinux_search_sec",
+  "description": "Adds ArchLinux Security as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch-s.svg",
+    "64": "icons/arch-s.svg",
+    "256": "icons/arch-s.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Security Advisories",
+      "keyword": "alsec",
+      "favicon_url": "icons/arch-s.svg",
+      "search_url": "https://security.archlinux.org/package/{searchTerms}"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchSec@archlinux.org",
+        "strict_min_version": "109.0"
+    },
+    "gecko_android": {
+        "strict_min_version": "121.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
+}

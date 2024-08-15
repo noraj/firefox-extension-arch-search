@@ -18,12 +18,11 @@ name                                   | shortcut   | Install
 ArchLinux Packages Search              | `alpkgs`   | [AMO][arch-pkgs]
 ArchLinux Wiki Search                  | `alwiki`   | [AMO][arch-wiki]
 ArchLinux User Repository (AUR) Search | `alaur`    | [AMO][arch-aur]
-~~ArchLinux Bugtracker (by FS) Search~~    | ~~`albugsfs`~~ | ~~[AMO][arch-bugs-fs]~~
-~~ArchLinux Bugtracker (by text) Search~~  | ~~`albugst`~~  | ~~[AMO][arch-bugs-t]~~
 ArchLinux Bugtracker Search            | `albugs`   | [AMO][arch-bugs]
 ArchLinux Forum (by author) Search     | `alforuma` | [AMO][arch-forum-a]
 ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
-ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
+ArchLinux Manual Page Search           | `alman`    | [AMO][arch-man]
+ArchLinux Security Search              | `alsec`    | [AMO][arch-security]
 
 ## Install
 
@@ -56,10 +55,10 @@ ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
 
 [amo]:(https://addons.mozilla.org/)
 [arch-aur]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-aur-search/
-[arch-bugs-fs]:https://addons.mozilla.org/en-US/firefox/addon/arch-bugtracker-by-fs-search/
-[arch-bugs-t]:https://addons.mozilla.org/en-US/firefox/addon/arch-bugtracker-by-text-search/
+[arch-bugs]:https://addons.mozilla.org/en-US/firefox/addon/arch-bugtracker-search/
 [arch-forum-a]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-author-search/
 [arch-forum-k]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-keywords-search/
 [arch-pkgs]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-packages-search/
 [arch-wiki]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-wiki-search/
 [arch-man]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-manual-pages-search/
+[arch-security]:https://addons.mozilla.org/en-US/firefox/addon/arch-security-search/
