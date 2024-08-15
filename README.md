@@ -18,8 +18,9 @@ name                                   | shortcut   | Install
 ArchLinux Packages Search              | `alpkgs`   | [AMO][arch-pkgs]
 ArchLinux Wiki Search                  | `alwiki`   | [AMO][arch-wiki]
 ArchLinux User Repository (AUR) Search | `alaur`    | [AMO][arch-aur]
-ArchLinux Bugtracker (by FS) Search    | `albugsfs` | [AMO][arch-bugs-fs]
-ArchLinux Bugtracker (by text) Search  | `albugst`  | [AMO][arch-bugs-t]
+~~ArchLinux Bugtracker (by FS) Search~~    | ~~`albugsfs`~~ | ~~[AMO][arch-bugs-fs]~~
+~~ArchLinux Bugtracker (by text) Search~~  | ~~`albugst`~~  | ~~[AMO][arch-bugs-t]~~
+ArchLinux Bugtracker Search            | `albugs`   | [AMO][arch-bugs]
 ArchLinux Forum (by author) Search     | `alforuma` | [AMO][arch-forum-a]
 ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
 ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
@@ -33,24 +34,24 @@ ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
 
 * Clone the repo
 * Install tools:
-  * [Node.js](https://nodejs.org) via [asdf](https://asdf-vm.com/)
+  * [Bun](https://bun.sh/) via [asdf](https://asdf-vm.com/)
 * Install dependencies:
-  * `npm i`
+  * `bun i`
 * Lint (check for manifest syntax errors)
-  * `npm run lint -- -s web-extensions/v3/<ext-name>`
+  * `bun run --bun lint -- -s web-extensions/v3/<ext-name>`
 * Run add-on in isolated Firefox instance using [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) (open the [Browser Toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) for console logging):
-  * `npm run run -- -s web-extensions/v3/<ext-name>`
+  * `bun run run -- -s web-extensions/v3/<ext-name>`
 * Package for distribution:
-  * One extension: `npm run build -- -s web-extensions/v3/<ext-name>`
-  * All extensions: `npm run buildAll`
+  * One extension: `bun run build -- -s web-extensions/v3/<ext-name>`
+  * All extensions: `bun run buildAll`
 
 ## FAQ
 
 - [Why is there one extension per search engine?](https://stackoverflow.com/questions/64304959/is-it-possible-to-add-multiple-search-engines-in-the-same-firefox-web-extension)
-- After the installation, I still  don't see the new search enines. Where are there?
+- After the installation, I still don't see the new search enines. Where are there?
   - Disable/Enable the extensions, this will reload them and they'll appear.
 - It's possible to add the search engines by clicking the plus button on the search bar, so why an extension?
-  - It's  way quicker to install the extension rather than manually adding the search engines. An extension also allows automation.
+  - It's way quicker to install the extension rather than manually adding the search engines. An extension also allows automation.
   - The bug tracker & the forum use advanced search with several parameters so it's not possible to add them manually via the search bar, an extension is mandatory.
 
 [amo]:(https://addons.mozilla.org/)

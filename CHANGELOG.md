@@ -1,8 +1,9 @@
 # Changelog
 
-## [1.0.6 - Unreleased]
+## [2.0.0]
 
 - Firefox for Android support [#35](https://github.com/noraj/firefox-extension-arch-search/pull/35) (thanks @sangsatori)
+- Remove extensions related to the old bug tracker and introduce an extension for the new one
 
 ## [1.0.5]
 

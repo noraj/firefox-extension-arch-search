@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ArchLinux Bugtracker Search",
+  "short_name": "archlinux_search_bugs",
+  "description": "Adds ArchLinux Bugtracker as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch-b.svg",
+    "64": "icons/arch-b.svg",
+    "256": "icons/arch-b.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux Bugtracker",
+      "keyword": "albugs",
+      "favicon_url": "icons/arch-b.svg",
+      "search_url": "https://gitlab.archlinux.org/archlinux/packaging/packages/{searchTerms}/-/issues"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchBugs@archlinux.org",
+        "strict_min_version": "109.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "121.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-search"
+}
