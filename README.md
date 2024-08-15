@@ -23,6 +23,7 @@ ArchLinux Forum (by author) Search     | `alforuma` | [AMO][arch-forum-a]
 ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
 ArchLinux Manual Page Search           | `alman`    | [AMO][arch-man]
 ArchLinux Security Search              | `alsec`    | [AMO][arch-security]
+ArchLinux PKGBUILD (source) Search     | `alsrc`    | [AMO][arch-pkgbuild]
 
 ## Install
 
@@ -62,3 +63,4 @@ ArchLinux Security Search              | `alsec`    | [AMO][arch-security]
 [arch-wiki]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-wiki-search/
 [arch-man]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-manual-pages-search/
 [arch-security]:https://addons.mozilla.org/en-US/firefox/addon/arch-security-search/
+[arch-pkgbuild]:https://addons.mozilla.org/en-US/firefox/addon/arch-pkgbuild-search/

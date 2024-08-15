@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ArchLinux PKGBUILD (source) Search",
+  "short_name": "archlinux_search_pkgbuild",
+  "description": "Adds ArchLinux PKGBUILD as a search engine.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/arch-pkg.svg",
+    "64": "icons/arch-pkg.svg",
+    "256": "icons/arch-pkg.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ArchLinux PKGBUILD",
+      "keyword": "alsrc",
+      "favicon_url": "icons/arch-pkg.svg",
+      "search_url": "https://gitlab.archlinux.org/archlinux/packaging/packages/{searchTerms}/-/blob/main/PKGBUILD?ref_type=heads"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "ArchSrc@archlinux.org",
+        "strict_min_version": "109.0"
+    },
+    "gecko_android": {
+        "strict_min_version": "121.0"
+    }
+  },
+  "author": "noraj",
+  "homepage_url": "https://github.com/noraj/firefox-extension-arch-pkgearch"
+}

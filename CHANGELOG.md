@@ -5,6 +5,7 @@
 - Firefox for Android support [#35](https://github.com/noraj/firefox-extension-arch-search/pull/35) (thanks @sangsatori)
 - Remove extensions related to the old bug tracker and introduce an extension for the new one
 - New extension to search for Security Advisories
+- New extension to search for PKGBUILD files
 
 ## [1.0.5]
 

@@ -7,3 +7,4 @@ web-ext build -s ./web-extensions/v3/arch-forum-a -a ./dist
 web-ext build -s ./web-extensions/v3/arch-forum-k -a ./dist
 web-ext build -s ./web-extensions/v3/arch-man -a ./dist
 web-ext build -s ./web-extensions/v3/arch-security -a ./dist
+web-ext build -s ./web-extensions/v3/arch-pkgbuild -a ./dist
