@@ -3,7 +3,7 @@
   "name": "ArchLinux Forum (by keywords) Search",
   "short_name": "archlinux_search_forum_k",
   "description": "Adds ArchLinux Forum (by keywords) as a search engine.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icons": {
     "16": "icons/arch-fk.svg",
     "64": "icons/arch-fk.svg",

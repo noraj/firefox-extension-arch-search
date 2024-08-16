@@ -3,7 +3,7 @@
   "name": "ArchLinux manual pages Search",
   "short_name": "archlinux_search_man",
   "description": "Adds ArchLinux manual pages as a search engine.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "icons": {
     "16": "icons/arch-m.svg",
     "64": "icons/arch-m.svg",

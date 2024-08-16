@@ -3,7 +3,7 @@
   "name": "ArchLinux AUR Search",
   "short_name": "archlinux_search_aur",
   "description": "Adds ArchLinux AUR as a search engine.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "icons": {
     "16": "icons/arch-u.svg",
     "64": "icons/arch-u.svg",

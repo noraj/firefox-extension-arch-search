@@ -3,7 +3,7 @@
   "name": "ArchLinux Packages Search",
   "short_name": "archlinux_search_pkgs",
   "description": "Adds ArchLinux Packages as a search engine.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icons": {
     "16": "icons/arch-p.svg",
     "64": "icons/arch-p.svg",
