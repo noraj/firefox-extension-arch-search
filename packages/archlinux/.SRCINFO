@@ -1,7 +1,7 @@
 pkgbase = firefox-extension-arch-search
 	pkgdesc = A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.
 	pkgver = 2.0.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/noraj/firefox-extension-arch-search
 	arch = any
 	groups = firefox-addons
@@ -29,7 +29,7 @@ pkgbase = firefox-extension-arch-search
 	source = https://addons.mozilla.org/firefox/downloads/file/4337419/archlinux_pkgbuild_search-1.0.0.xpi
 	source = https://raw.githubusercontent.com/noraj/firefox-extension-arch-search/master/LICENSE
 	b2sums = 1a0010fefea0986b0ded2c483e56244418b000712d84c0d252a00f35622905f4e6dd67d3037e183012d03b1233523d613cf0d8c525a3668058f92c7769409c42
-	b2sums = f7e38c977546fd3cf5ae104ade76291ea622bc0a372887d1cde4a7090bfda875454db58b5be83415b0faa1a4798702e21ba41a126e1c1506001bfc6cc163e5fd
+	b2sums = 7e9c6978dacf709cf8dc0be044492ef276c1835ed30db5aa64fbc35f3a45608885a6662fc4048985ae74e812f94b202d543dcdfcbb431454c2898f3337e98c22
 	b2sums = 883c3569f1e1ad12cd3d1109fadde148fd8040126dcd6bff4aeec027c246f3b4d5e7d8552934eb7cc29b357152699606df3d4656d86fae0722054b13914e46bb
 	b2sums = 2980f6e853a2d30236bed266da9a942f41b6393c1aa14b5bab38e79d26f4e741bd536331476b364e98f333a83e04f364554e141e1eab63ee0c1bf69615c9aa2a
 	b2sums = ae8574a0899510a7d6f338a24f0ca96456fd3ff3e14a1c1c1e5a7d4a225df1dcb23329ce71c5d49d3b4374f7c595ba390b5556d3bb83d3a13147d38103473e17
@@ -37,6 +37,6 @@ pkgbase = firefox-extension-arch-search
 	b2sums = e422cde6ee9d0ff10866713a5ebc5219dbafc9e0381d7aa6f185ed14a2758c53e56a020502c2b8badc1eb2e8844ee73c74f0a8a2f41588638be53077677f53cc
 	b2sums = ef1683e513719d083a2478d1418e10ddc35364e799032ea3a027b40c50c39b51ffbcf9aa25dac935b14bf4dc5d45ee29cbc8b924c16cbbcf3de0e7c3c5738a43
 	b2sums = b82d5f510ecdd9eb3ec75ae8f73c4a3e06da80e31f6f972a192534ebebf029b1be4f260cd907296274d184a9ac00162f2ff3c0707471e443ce225b93d8b2e218
-	b2sums = a4c401071f50f885cea359404502a4da0459efd97fef9310d9484e9801b8b6eff3085dd0cfc6917b575dd3def37695c8cbeb37221e51855b8e97376c59b3d39a
+	b2sums = 34a88b0db4073f62e676a5f00808deec333e71090799ef011c8d75904e865d566539ba7a495fd2738bf8e34429240b31648664cdd37fe28feb2f298ee3bb5f6e
 
 pkgname = firefox-extension-arch-search
