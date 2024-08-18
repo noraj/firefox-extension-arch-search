@@ -56,11 +56,11 @@ ArchLinux PKGBUILD (source) Search     | `alsrc`    | [AMO][arch-pkgbuild]
 
 [amo]:(https://addons.mozilla.org/)
 [arch-aur]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-aur-search/
-[arch-bugs]:https://addons.mozilla.org/en-US/firefox/addon/arch-bugtracker-search/
+[arch-bugs]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-bugtracker-search/
 [arch-forum-a]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-author-search/
 [arch-forum-k]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-keywords-search/
 [arch-pkgs]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-packages-search/
 [arch-wiki]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-wiki-search/
 [arch-man]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-manual-pages-search/
-[arch-security]:https://addons.mozilla.org/en-US/firefox/addon/arch-security-search/
-[arch-pkgbuild]:https://addons.mozilla.org/en-US/firefox/addon/arch-pkgbuild-search/
+[arch-security]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-security-search/
+[arch-pkgbuild]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-pkgbuild-search/
