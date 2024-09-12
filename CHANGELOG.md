@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.1]
+
+- Better description for ArchLinux Security Search & resubmission on AMO
+
 ## [2.0.0]
 
 - Firefox for Android support [#35](https://github.com/noraj/firefox-extension-arch-search/pull/35) (thanks @sangsatori)

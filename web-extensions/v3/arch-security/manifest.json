@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "ArchLinux Security Search",
   "short_name": "archlinux_search_sec",
-  "description": "Adds ArchLinux Security as a search engine.",
-  "version": "1.0.0",
+  "description": "Adds a search engine to look for ArchLinux Security Advisories by package.",
+  "version": "1.0.1",
   "icons": {
     "16": "icons/arch-s.svg",
     "64": "icons/arch-s.svg",
