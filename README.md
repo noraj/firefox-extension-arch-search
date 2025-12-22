@@ -47,7 +47,7 @@ ArchLinux PKGBUILD (source) Search     | `alsrc`    | [AMO][arch-pkgbuild]
 ## FAQ
 
 - [Why is there one extension per search engine?](https://stackoverflow.com/questions/64304959/is-it-possible-to-add-multiple-search-engines-in-the-same-firefox-web-extension)
-- After the installation, I still don't see the new search enines. Where are there?
+- After the installation, I still don't see the new search engines. Where are there?
   - Disable/Enable the extensions, this will reload them and they'll appear.
 - It's possible to add the search engines by clicking the plus button on the search bar, so why an extension?
   - It's way quicker to install the extension rather than manually adding the search engines. An extension also allows automation.
