@@ -24,7 +24,7 @@
     "run": "web-ext run"
   },
   "devDependencies": {
-    "web-ext": "9.3.0"
+    "web-ext": "9.4.0"
   },
   "engines": {
     "node": ">=18"
